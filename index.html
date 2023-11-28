@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="container">
+
+        <!-- DISPLAY -->
+        <section class="display">
+            <input type="text" id="displayContent" readonly>
+        </section>
+
+        <!-- BOTÕES -->
+        <section class="btns">
+            <!-- 1 LINHA -->
+            <div class="row">
+                <button class="btn" onclick="calc.exp()">e</button>
+                <button class="btn" onclick="calc.pi()">π</button>
+                <button class="btn" onclick='calc.appendToDisplay("(")'>(</button>
+                <button class="btn" onclick="calc.appendToDisplay(')')">)</button>
+                <button class="btn" onclick="calc.appendToDisplay('%')">%</button>
+                <!-- BACKSPACE -->
+                <button class="btn" onclick="calc.clearDisplay()">CE</button>
+            </div>
+
+            <!-- 2 LINHA -->
+            <div class="row">
+                <button class="btn" onclick="calc.sin()">sin</button>
+                <button class="btn" onclick="calc.cos()">cos</button>
+                <button class="btn" onclick="calc.appendToDisplay('7')">7</button>
+                <button class="btn" onclick="calc.appendToDisplay('8')">8</button>
+                <button class="btn" onclick="calc.appendToDisplay('9')">9</button>
+                <button class="btn" onclick="calc.appendToDisplay('/')">/</button>
+            </div>
+
+            <!-- 3 LINHA -->
+            <div class="row">
+                <button class="btn" onclick="calc.ln()">ln</button>
+                <button class="btn" onclick="calc.log()">log</button>
+                <button class="btn" onclick="calc.appendToDisplay('4')">4</button>
+                <button class="btn" onclick="calc.appendToDisplay('5')">5</button>
+                <button class="btn" onclick="calc.appendToDisplay('6')">6</button>
+                <button class="btn" onclick="calc.appendToDisplay('*')">*</button>
+            </div>
+
+            <!-- 4 LINHA -->
+            <div class="row">
+                <button class="btn" onclick="calc.tan()">tan</button>
+                <button class="btn" onclick="calc.sqrt()">√</button>
+                <button class="btn" onclick="calc.appendToDisplay('1')">1</button>
+                <button class="btn" onclick="calc.appendToDisplay('2')">2</button>
+                <button class="btn" onclick="calc.appendToDisplay('3')">3</button>
+                <button class="btn" onclick="calc.appendToDisplay('-')">-</button>
+            </div>
+
+            <!-- 5 LINHA -->
+            <div class="row">
+                <button class="btn" onclick="calc.fact()">x!</button>
+                <button class="btn" onclick="calc.pow()">x<sup>y</sup></button>
+                <button class="btn" onclick="calc.appendToDisplay('0')">0</button>
+                <button class="btn" onclick="calc.appendToDisplay('.')">.</button>
+                <!-- RESULT -->
+                <button class="btn" id="eval" onclick="calc.calculate()">=</button>
+                <button class="btn" onclick="calc.appendToDisplay('+')">+</button>
+            </div>
+        </section>
+        
+    </main>
+</body>
+
+<script src="script.js"></script>
+</html>
