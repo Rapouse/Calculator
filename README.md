@@ -27,7 +27,7 @@ A calculadora suporta operações matemáticas básicas, como adição, subtraç
 ## Instalação
 1. Faça o download ou clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/calculator.git
+   git clone https://github.com/Rapouse/Calculator.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
