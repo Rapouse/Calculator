@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Utilizando HTML/CSS e JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Adiciona a biblioteca Math.js para realizar cálculos matemáticos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.9.0/math.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Container principal da calculadora -->
+    <div class="calculator">
+        <!-- Display que mostra os números inseridos e os resultados -->
+        <div class="display">
+            <input type="text" class="display-input" placeholder="0">
+            <input type="text" class="display-result">
+        </div>
+
+        <!-- Botões da calculadora -->
+        <div class="buttons">
+            <button class="operator">AC</button>
+            <button class="operator">( )</button>
+            <button class="operator">%</button>
+            <button class="operator"><span>&divide;</span></button>
+
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator"><span>&times;</span></button>
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator"><span>-</span></button>
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator"><span>+</span></button>
+
+            <button>0</button>
+            <button>.</button>
+            <button class="operator backspace"><span></span></button>
+            <button class="operator">=</button>
+        </div>
+
+        <!-- Script principal da calculadora -->
+        <script src="js/script.js"></script>
+    </div>
+</body>
+
+</html>
