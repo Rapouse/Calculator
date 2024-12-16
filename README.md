@@ -46,6 +46,9 @@ A calculadora suporta operações matemáticas básicas, como adição, subtraç
 ## Interface da Calculadora
 ![Interface da Calculadora](assets/calculadora-interface.png)
 
+## Veja ao Vivo
+[Acesse a Calculadora Online](https://rapouse.github.io/Calculator/)
+
 ## Contribuição
 Contribuições são bem-vindas! Caso deseje melhorar este projeto, siga os passos abaixo:
 1. Fork o repositório.
