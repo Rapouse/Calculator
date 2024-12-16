@@ -67,5 +67,5 @@ Contribuições são bem-vindas! Caso deseje melhorar este projeto, siga os pass
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Autor
-- **Rapouse**  
-  [GitHub](https://github.com/Rapouse) | [LinkedIn](https://www.linkedin.com/in/james-lima/)
+**Rapouse**  
+[GitHub](https://github.com/Rapouse) | [LinkedIn](https://www.linkedin.com/in/james-lima/) | [ko-fi](https://ko-fi.com/rapouse)
